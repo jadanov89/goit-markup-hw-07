@@ -83,7 +83,19 @@ label, input {
     clip: rect(0 0 0 0);
 }
 
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: $fourth-color;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
 .address {
     margin-top: 20px;
 }
+
+
 

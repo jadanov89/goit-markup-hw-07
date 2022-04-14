@@ -84,6 +84,16 @@ label, input {
   clip: rect(0 0 0 0);
 }
 
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 .address {
   margin-top: 20px;
 }
@@ -192,22 +202,22 @@ label, input {
   margin-right: 10px;
   fill: #757575;
 }
-.content__icons:hover, .content__icons:focus {
+.content__icons__icons:hover, .content__icons__icons:focus {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .content__link {
   color: #757575;
 }
+.content__link .content__link__link:hover, .content__link .content__link__link:focus {
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .content__item:hover .content__icons, .content__item:focus .content__icons {
   fill: #2196F3;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.content .content__link:hover, .content .content__link:focus {
-  color: #2196F3;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn__group {
@@ -373,20 +383,6 @@ label, input {
 .footer-networks__item:last-child {
   margin-right: 0;
 }
-.footer-networks__icon {
-  position: relative;
-  top: 12px;
-  fill: #ffffff;
-}
-.footer-networks__text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
 .footer-networks__item {
   width: 44px;
   height: 44px;
@@ -400,6 +396,11 @@ label, input {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-networks__icon {
+  position: relative;
+  top: 12px;
+  fill: #ffffff;
+}
 
 .footer-form {
   margin-left: 93px;
@@ -408,15 +409,6 @@ label, input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-.footer-form__text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-bottom: 20px;
 }
 .footer-form__input {
   width: 343px;
@@ -428,14 +420,6 @@ label, input {
   border-radius: 4px;
   background: transparent;
   padding-left: 15px;
-}
-.footer-form__label {
-  position: absolute;
-  padding-top: 15px;
-  padding-left: 16px;
-  font-size: 16px;
-  line-height: 1.2;
-  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__button {
   min-width: 200px;
@@ -463,13 +447,13 @@ label, input {
   background-color: rgb(33, 150, 243);
   margin-left: 12px;
 }
-.footer-form__span {
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-}
 .footer-form__button:hover, .footer-form__button:focus {
   background-color: #188CE8;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form__span {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
 }/*# sourceMappingURL=portfolio.css.map */

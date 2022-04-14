@@ -18,19 +18,19 @@
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__icons {
-        margin-top: 23px;
-        fill: $icon-color;
-    }
-
     &__item:hover &__icons,
     &__item:focus &__icons {
         fill: $brand-color;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &__icons:hover,
-    &__icons:focus {
-        fill: var(--brand-color);
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+
+        &__icons {
+            margin-top: 23px;
+            fill: $icon-color;
+        }
+            &__icons:hover,
+            &__icons:focus {
+                fill: var(--brand-color);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
 }
