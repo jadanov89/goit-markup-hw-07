@@ -73,9 +73,6 @@
     }
 }
 
-
-
-
 .footer-form {
     margin-left: 93px;
     &__wrap {
@@ -112,22 +109,14 @@
     }
 
     &__button {
+        @include btn-style;
         display: inline-flex;
         justify-content: center;
-        min-width: 200px;
-        min-height: 50px;
         font-size: 16px;
-        line-height: 1.8;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: $fourth-color;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        line-height: 1.8;        
         border: 0px;
-        border-radius: 4px;
-        background: $brand-color;
+        background-color: rgb(33, 150, 243);
         margin-left: 12px;
-        cursor: pointer;
     }
 
     &__span {

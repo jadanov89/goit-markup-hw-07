@@ -23,21 +23,12 @@
     }
 
     &__btn {
-        font-family: 'Roboto', sans-serif;
+        @include btn-style;
+        font-family: "Roboto",sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.9;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        background-color: $brand-color;
-        color: $fourth-color;
-        min-width: 200px;
-        min-height: 50px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        border-color: transparent;
-        cursor: pointer;
+        border-color: rgba(0,0,0,0);
         margin-top: 30px;
     }
     &__btn:hover,
